@@ -54,8 +54,6 @@ resetBtn.addEventListener("click", resetTimer);
 
 updateDisplay();
 
-
-
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker
